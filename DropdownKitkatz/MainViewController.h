@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GiftPickerViewController.h"
 
 @interface MainViewController : UIViewController
+@property (strong, nonatomic) GiftPickerViewController *giftPickerController;
 
 @end

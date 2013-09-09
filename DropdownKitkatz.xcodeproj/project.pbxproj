@@ -18,6 +18,9 @@
 		58C6A62217DE467100B2C131 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6A62117DE467100B2C131 /* Default-568h@2x.png */; };
 		58C7B83417DE7300009DC78A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C7B83317DE7300009DC78A /* MainViewController.m */; };
 		58C7B83717DE73BC009DC78A /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C7B83617DE73BC009DC78A /* MainView.m */; };
+		58C7B83B17DE78D8009DC78A /* GiftPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C7B83917DE78D8009DC78A /* GiftPickerViewController.m */; };
+		58C7B83C17DE78D8009DC78A /* GiftPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C7B83A17DE78D8009DC78A /* GiftPickerViewController.xib */; };
+		58C7B84817DE7D0B009DC78A /* GiftPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C7B84717DE7D0B009DC78A /* GiftPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,11 @@
 		58C7B83317DE7300009DC78A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		58C7B83517DE73BC009DC78A /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		58C7B83617DE73BC009DC78A /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		58C7B83817DE78D8009DC78A /* GiftPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftPickerViewController.h; sourceTree = "<group>"; };
+		58C7B83917DE78D8009DC78A /* GiftPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftPickerViewController.m; sourceTree = "<group>"; };
+		58C7B83A17DE78D8009DC78A /* GiftPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftPickerViewController.xib; sourceTree = "<group>"; };
+		58C7B84617DE7D0B009DC78A /* GiftPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftPickerView.h; sourceTree = "<group>"; };
+		58C7B84717DE7D0B009DC78A /* GiftPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				58C6A61B17DE467100B2C131 /* dropdownAppDelegate.m */,
+				58C7B84617DE7D0B009DC78A /* GiftPickerView.h */,
+				58C7B84717DE7D0B009DC78A /* GiftPickerView.m */,
+				58C7B83817DE78D8009DC78A /* GiftPickerViewController.h */,
+				58C7B83917DE78D8009DC78A /* GiftPickerViewController.m */,
+				58C7B83A17DE78D8009DC78A /* GiftPickerViewController.xib */,
 				58C7B83217DE7300009DC78A /* MainViewController.h */,
 				58C7B83517DE73BC009DC78A /* MainView.h */,
 				58C7B83617DE73BC009DC78A /* MainView.m */,
@@ -165,6 +178,7 @@
 				58C6A61E17DE467100B2C131 /* Default.png in Resources */,
 				58C6A62017DE467100B2C131 /* Default@2x.png in Resources */,
 				58C6A62217DE467100B2C131 /* Default-568h@2x.png in Resources */,
+				58C7B83C17DE78D8009DC78A /* GiftPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +193,8 @@
 				58C6A61C17DE467100B2C131 /* dropdownAppDelegate.m in Sources */,
 				58C7B83417DE7300009DC78A /* MainViewController.m in Sources */,
 				58C7B83717DE73BC009DC78A /* MainView.m in Sources */,
+				58C7B83B17DE78D8009DC78A /* GiftPickerViewController.m in Sources */,
+				58C7B84817DE7D0B009DC78A /* GiftPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

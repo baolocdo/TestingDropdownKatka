@@ -1,15 +1,14 @@
 //
-//  MainView.m
+//  GiftPickerView.m
 //  DropdownKitkatz
 //
 //  Created by Alex Do on 9/9/13.
 //  Copyright (c) 2013 Alex Do. All rights reserved.
 //
 
-#import "MainView.h"
-#import "GiftPickerViewController.h"
+#import "GiftPickerView.h"
 
-@implementation MainView
+@implementation GiftPickerView
 
 - (id)initWithFrame:(CGRect)frame
 {
